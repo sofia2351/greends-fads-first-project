@@ -1,0 +1,5 @@
+5.1. O comando cp ../my-first-project/temp-* . copia os ficheiros que começam por temp- da pasta my-first-project, que está um nível acima, para a pasta atual. O símbolo * significa “todos os ficheiros que começam por temp-” e o ponto . significa “esta pasta”.
+
+5.2. Não precisamos de usar git init porque o comando git clone já criou uma cópia completa do repositório, incluindo a configuração do Git.
+
+5.3. Sim. Para confirmar os ficheiros copiados, preciso de os adicionar ao Git com git add, criar uma versão com git commit e enviá-la para o GitHub com git push.
